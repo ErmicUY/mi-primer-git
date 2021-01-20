@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulus Store</title>
+    <meta name="tienda online" content="e-commerce" />
+    <meta name="YO" content="Yo x 2" />
+    <meta name="Venta, e-commerce, articulos" content="tienda online" />
+</head>
+
+<body>
+    <header>
+        <h1>Gulus Uruguay</h1>
+        <form name="login">
+            login
+            <div>
+                <input type="text" placeholder="Usuario" name="nombreUsuario" id="idUsuario" size="20" maxlength="20">
+            </div>
+            <div>
+                <input type="password" placeholder="password" name="nombrePaswoord" id="idPassword" size="20"
+                    maxlength="15">
+            </div>
+            <div>
+                <a href="subwebs/registro.html"><button id="btnRegistro"> Registrate </button></a>
+            </div>
+        </form>
+        <br>
+    </header>
+    
+    <form name="menuDesplegable">
+        <select name="item" id="idItem">
+            <option value="Pantuflas">Pantuflas</option>
+            <option value="Pijamas">Pijamas</option>
+            <option value="Cuellitos">Cuellitos</option>
+            <option value="Billetera">Billeteras</option>
+            <option value="Medias">Medias</option>
+            <option value="Calzas niña">Calzas niña</option>
+            <option value="Mochilas">Mochilas</option>
+            <option value="Guantes">Guantes</option>
+            <option value="Orejeras">Orejeras</option>
+        </select>
+
+    </form>
+    <br>
+
+    <form name="Buscador">
+        <div>
+            <label for="buscador">Buscar</label>
+            <input type="search" placeholder="Articulo" id="buscador">
+        </div>
+    </form>
+
+    <div class="contenedor" name="filtroPrecios" id="filtroPreciosId">
+        <div>
+            <input type="radio" name="precioSelect" id="mayorAMenorId">
+            <label for="mayorAMenorId">Mayor a menor precio</label>
+        </div>
+        <div>
+            <input type="radio" name="precioSelect" id="menorAMayorId">
+            <label for="menorAMayorId">Menor a mayor precio</label>
+        </div>
+        <div>
+            <label for="idRango1">Precio:</label>
+            <input type="text" placeholder="Desde" name="rango de precios" id="idRango1">
+
+
+            <label for="idRango2">Precio:</label>
+            <input type="text" placeholder="Hasta" name="rango de precios" id="idRango2">
+        </div>
+
+
+
+    </div>
+
+
+    <h2>Gulus Store, donde podras comprar todo lo que te gusta.</h2>
+    <nav name="navegacion">
+        <div>
+            <a href="subwebs/adultos.html"><input type="button" value="Adulto" name="btnAdulto" id="idBtnAdulto"></a>
+        </div>
+        <div>
+            <a href="subwebs/niños.html"><input type="button" value="Niño/a" name="btnNiño/a" id="idBtnNiño/a"></a>
+        </div>
+        <div>
+            <a href="subwebs/varios.html"><input type="button" value="Varios" name="btnVarios" id="idVarios"></a>
+        </div>
+
+    </nav>
+
+
+    <section>
+        <article>
+            <h2>Envios gratis a todo el pais en compras superiores a $1200</h2>
+        </article>
+        <article>
+            <h2>Articulos mas vendidos</h2>
+        </article>
+        <article>
+            Articulos populares
+        </article>
+        <br>
+
+    </section>
+
+
+    <footer>
+        <div>
+            <a href="subwebs/contacto.html"><input type="button" name="btncontacto" id="btnidcontacto"
+                    value="Contacto"></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/gulusuruguay/"><input type="button" name="" id="idGoIg"
+                    value="Instagram"></a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/Gulusuruguay"><input type="button" name="" id="idGoFb"
+                    value="Facebook"></a>
+        </div>
+        <div>
+            <a href="subwebs/rhh.html"><input type="button" value="Trabaja con nosotros"></a>
+        </div>
+        <br>
+        Derechos reservados 2019-2022
+    </footer>
+</body>
+
+</html>
